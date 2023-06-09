@@ -13,7 +13,7 @@ export default function AlertBanner() {
 const styles = StyleSheet.create({
     container: {
         padding: 10,
-        backgroundColor: '#DF5D33',
+        backgroundColor: '#E72727',
     },
     text: {
         textAlign: 'center',
