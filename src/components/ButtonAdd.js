@@ -7,7 +7,7 @@ export default function ButtonAdd() {
         <View style={styles.container}>
             <Button
                 title="Scan Code"
-                color="#144696"
+                color="#095797"
                 onPress={() => Alert.alert('Here will be a qr code to scan.')}
             />
         </View>
