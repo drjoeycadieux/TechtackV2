@@ -1,0 +1,25 @@
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+
+
+export default function AlertBanner() {
+    return (
+        <View style={styles.container}>
+            <Text style={styles.text}> Techtack Technologies App Development </Text>
+        </View>
+    )
+}
+
+const styles = StyleSheet.create({
+    container: {
+        padding: 10,
+        backgroundColor: 'firebrick',
+    },
+    text: {
+        textAlign: 'center',
+        fontSize: 15,
+        color: 'white',
+        fontWeight: 'bold',
+        fontFamily: 'sans-serif',
+    }
+})
