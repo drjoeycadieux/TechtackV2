@@ -7,7 +7,7 @@ export default function AddProof() {
         <View style={styles.container}>
             <Button
                 title="Add"
-                color="#7F7C7C"
+                color="#095797"
                 onPress={() => Alert.alert('Here will be a place for adding a proof.')}
             />
         </View>
