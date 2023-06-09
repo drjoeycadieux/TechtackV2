@@ -4,6 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 // Components 
 import Header from './src/components/Header';
 import AlertBanner from './src/components/AlertBanner';
+import ButtonAdd from './src/components/ButtonAdd';
 
 // Utils
 import MainContent from './src/utils/MainContent';
@@ -15,6 +16,7 @@ export default function App() {
       <Header />
       <AlertBanner />
       <Text style={styles.text}></Text>
+      <ButtonAdd />
       <MainContent />
     </View>
   )
