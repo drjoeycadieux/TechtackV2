@@ -1,13 +1,10 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-// Components
-import AddProof from './AddProof';
-
 export default function Header() {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Techtack Technologies  <AddProof /></Text>
+            <Text style={styles.text}>Techtack Technologies</Text>
         </View>
     )
 }

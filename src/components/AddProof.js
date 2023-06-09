@@ -16,6 +16,6 @@ export default function AddProof() {
 
 const styles = StyleSheet.create({
     container: {
-        padding: 0,
+        padding: 20,
     }
 })

@@ -6,6 +6,9 @@ import Header from './src/components/Header';
 import AlertBanner from './src/components/AlertBanner';
 import ButtonAdd from './src/components/ButtonAdd';
 
+// Components
+import AddProof from './src/components/AddProof';
+
 // Utils
 import MainContent from './src/utils/MainContent';
 
@@ -17,6 +20,7 @@ export default function App() {
       <AlertBanner />
       <Text style={styles.text}></Text>
       <ButtonAdd />
+      <AddProof />
       <MainContent />
     </View>
   )
