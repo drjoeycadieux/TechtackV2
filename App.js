@@ -5,8 +5,6 @@ import { View, Text, StyleSheet } from 'react-native';
 import Header from './src/components/Header';
 import AlertBanner from './src/components/AlertBanner';
 import ButtonAdd from './src/components/ButtonAdd';
-
-// Components
 import AddProof from './src/components/AddProof';
 
 // Utils
