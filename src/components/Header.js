@@ -13,7 +13,7 @@ export default function Header() {
 const styles = StyleSheet.create({
     container: {
         padding: 45,
-        backgroundColor: '#2C5ECB',
+        backgroundColor: '#3567AB',
     },
     text: {
         color: 'white',

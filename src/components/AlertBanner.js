@@ -5,7 +5,7 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function AlertBanner() {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}> Techtack Technologies App Development </Text>
+            <Text style={styles.text}>Visit techtack-technologies website.</Text>
         </View>
     )
 }
