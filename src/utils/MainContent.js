@@ -8,7 +8,9 @@ export default function MainContent() {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>Techtack Technologies | Most Advanced Platform From Developers.</Text>
-            <ButtonNav />
+            <View style={styles.button}>
+                <ButtonNav />
+            </View>
         </View>
     )
 }
@@ -16,6 +18,9 @@ export default function MainContent() {
 const styles = StyleSheet.create({
     container: {
         padding: 23,
+    },
+    button: {
+        padding: 25,
     },
     text: {
         textAlign: 'center',
