@@ -1,1 +1,1 @@
-*** <p style="text-align: center">Techtack Technologies | Mobile Application</p> ***
+## <p style="text-align: center">Techtack Technologies | Mobile Application</p>
