@@ -16,7 +16,12 @@ export default function App() {
     <View style={styles.container}>
       <Header />
       <AlertBanner />
-      <Text style={styles.text}></Text>
+      <View style={styles.textcontent}>
+        <Text style={styles.text}>What's hapennig to build what's next</Text>
+      </View>
+      <View style={styles.content}>
+        <Text style={styles.heading}>TeamLitho | Developer</Text>
+      </View>
       <ButtonAdd />
       <AddProof />
       <MainContent />
@@ -30,5 +35,20 @@ const styles = StyleSheet.create({
   },
   text: {
     textAlign: 'center',
+    fontFamily: 'sans-serif',
+    fontWeight: 'bold',
+    fontSize: 23,
+  },
+  textcontent: {
+    padding: 15,
+  },
+  content: {
+    padding: 5,
+  },
+  heading: {
+    textAlign: 'center',
+    fontFamily: 'sans-serif',
+    fontWeight: 'bold',
+    fontSize: 20,
   }
 })
