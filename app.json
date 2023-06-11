@@ -22,9 +22,6 @@
       },
       "package": "com.joeycadieux.techtack"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
     "extra": {
       "eas": {
         "projectId": "78ae3845-b898-45df-9e20-259ac237edf4"
