@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Button, StyleSheet } from 'react-native';
+import { View, Button, Alert, StyleSheet } from 'react-native';
 
 export default function SharingMethods() {
     return (
