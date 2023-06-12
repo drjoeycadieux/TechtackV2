@@ -9,6 +9,7 @@ import AddProof from './src/components/AddProof';
 
 // Utils
 import MainContent from './src/utils/MainContent';
+import MainText from './src/utils/MainText';
 
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
       <ButtonAdd />
       <AddProof />
       <MainContent />
+      <MainText />
     </View>
   )
 }
