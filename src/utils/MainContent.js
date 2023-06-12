@@ -4,12 +4,18 @@ import { View, Text, StyleSheet } from 'react-native';
 // Components 
 import ButtonNav from '../components/ButtonNav';
 
+// Sharing
+import SharingMethods from '../sharing/SharingMethods';
+
 export default function MainContent() {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>Techtack Technologies | Most Advanced Platform From Developers.</Text>
             <View style={styles.button}>
                 <ButtonNav />
+                <View style={styles.button}>
+                    <SharingMethods />
+                </View>
             </View>
         </View>
     )
