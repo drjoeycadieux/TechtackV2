@@ -11,7 +11,7 @@ import { Camera, CameraType } from 'expo-camera';
 
 export default function CameraUsing() {
     const [type, setType] = useState(CameraType.back)
-    const [permission, requestPermission] = Camera.useCameraPermissions();
+    const [permission] = Camera.useCameraPermissions();
 
     function ToggleCameraType() {
         setType(current => (current === CameraType.back ? CameraType.front : CameraType.back));
