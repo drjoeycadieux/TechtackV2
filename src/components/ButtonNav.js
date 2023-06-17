@@ -1,14 +1,14 @@
 import React from 'react';
-import { View, Button, Alert, StyleSheet } from 'react-native';
+import { View, Button, StyleSheet } from 'react-native';
 
 
-export default function ButtonNav() {
+export default function ButtonNav({ navigation }) {
     return (
         <View style={styles.container}>
             <Button
                 title="Go to settings"
                 color="#095797"
-                onPress={() => Alert.alert('To another page.')}
+                onPress={() => Navigation.navigate('SettingsScreen')}
             />
         </View>
     )
